@@ -1,0 +1,8 @@
+19:42:40.282 [main] INFO  Resources.base - setup method executed successfully
+19:43:09.457 [main] ERROR Resources.base - False error
+19:43:09.457 [main] DEBUG Resources.base - Test done with params
+19:43:33.077 [main] ERROR Resources.base - False error
+19:43:33.077 [main] DEBUG Resources.base - Test done with params
+20:32:42.033 [main] INFO  Resources.base - setup method executed successfully
+20:33:17.568 [main] ERROR Resources.base - False error
+20:33:17.568 [main] DEBUG Resources.base - Test done with params

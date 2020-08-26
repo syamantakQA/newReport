@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="Xen.E2E.Listeners"/>
+  </listeners>
+  <test name="HomePageValidation(failed)">
+    <classes>
+      <class name="Xen.E2E.HomePageNavigationTest">
+        <methods>
+          <include name="txtvalidation"/>
+          <include name="setup"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Xen.E2E.HomePageNavigationTest -->
+      <class name="Xen.E2E.LoginTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- Xen.E2E.LoginTest -->
+    </classes>
+  </test> <!-- HomePageValidation(failed) -->
+  <test name="LogInValidation(failed)">
+    <classes>
+      <class name="Xen.E2E.HomePageNavigationTest">
+        <methods>
+          <include name="setup"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Xen.E2E.HomePageNavigationTest -->
+      <class name="Xen.E2E.LoginTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="landingPage" invocation-numbers="0 1"/>
+        </methods>
+      </class> <!-- Xen.E2E.LoginTest -->
+    </classes>
+  </test> <!-- LogInValidation(failed) -->
+</suite> <!-- Failed suite [Suite] -->

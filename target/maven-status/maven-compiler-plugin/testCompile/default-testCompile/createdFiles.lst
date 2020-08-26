@@ -1,0 +1,5 @@
+Xen\E2E\gettimestamp.class
+Xen\E2E\LoginTest.class
+Xen\E2E\HomePageNavigationTest.class
+Xen\E2E\Listeners.class
+Xen\E2E\ExtentReportNG.class

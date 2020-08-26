@@ -1,0 +1,4 @@
+pageObject\loginpage.class
+pageObject\homepage.class
+Xen\E2E\App.class
+Resources\base.class

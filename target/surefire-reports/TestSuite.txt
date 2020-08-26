@@ -1,0 +1,30 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 253.632 s <<< FAILURE! - in TestSuite
+Xen.E2E.HomePageNavigationTest.txtvalidation  Time elapsed: 0.183 s  <<< FAILURE!
+java.lang.AssertionError: expected [FEATURED COURSES123] but found [FEATURED COURSES]
+	at Xen.E2E.HomePageNavigationTest.txtvalidation(HomePageNavigationTest.java:45)
+
+Xen.E2E.LoginTest.landingPage  Time elapsed: 1.33 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <span>...</span> is not clickable at point (1257, 16). Other element would receive the click: <div class="listbuilder-popup-content">...</div>
+  (Session info: chrome=83.0.4103.116)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SYAMANTAK-PC', ip: '192.168.0.113', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\SYAMAN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51893}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: a74a1fe9bb6f6c63c385ce2eb9c274dc
+	at Xen.E2E.LoginTest.landingPage(LoginTest.java:45)
+
+Xen.E2E.LoginTest.landingPage  Time elapsed: 1.231 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <span>...</span> is not clickable at point (1257, 16). Other element would receive the click: <div class="listbuilder-popup-content">...</div>
+  (Session info: chrome=83.0.4103.116)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SYAMANTAK-PC', ip: '192.168.0.113', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\SYAMAN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51986}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 4e1ae5c8a7e8ddee770cc1a662230c2d
+	at Xen.E2E.LoginTest.landingPage(LoginTest.java:45)
+
